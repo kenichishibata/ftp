@@ -1,5 +1,5 @@
 var fs = require('fs');
-var sftp = require('ftp-node');
+var sftp = require('ftp-upload');
 
 var pem = fs.readFileSync('path/to/file.key');
 

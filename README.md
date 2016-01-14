@@ -9,7 +9,7 @@ Because i already made sftp-node and I'm too lazy typing code and ftp by mscdex(
 Uploads the file
 ```
 var fs = require('fs');
-var ftp = require('ftp-node');
+var ftp = require('ftp-upload');
 
 
 var options = {
