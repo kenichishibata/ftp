@@ -1,4 +1,4 @@
-module.exports = function ftpUpload(credentials,pathToRemoteFile,pathToLocalFile){
+function upload(credentials,pathToRemoteFile,pathToLocalFile){
   var Client = require('ftp');
   var options = {
       host: credentials.host,
@@ -25,4 +25,5 @@ c.on('error',function(err){
 });
 c.connect(connectionProperties);
 
-};
+}
+module.exports.upload = upload;
