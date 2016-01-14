@@ -23,7 +23,7 @@ function upload(credentials,pathToRemoteFile,pathToLocalFile){
 c.on('error',function(err){
   console.log(err);
 });
-c.connect(connectionProperties);
+c.connect(options);
 
 }
 module.exports.upload = upload;
