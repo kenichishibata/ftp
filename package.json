@@ -1,5 +1,5 @@
 {
-  "name": "ftp-upload",
+  "name": "ftp-node",
   "version": "0.0.5",
   "description": "A wrapper for ftp function because ftp is super complicated and I just want to upload",
   "main": "ftp.js",

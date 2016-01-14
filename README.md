@@ -8,7 +8,7 @@ Because i already made sftp-node and I'm too lazy typing code and ftp by mscdex(
 ## upload(credentials,remoteFilePath,localFilePath)
 Uploads the file
 ```
-var ftp = require('ftp-upload');
+var ftp = require('ftp-node');
 
 
 var options = {

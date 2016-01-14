@@ -1,4 +1,4 @@
-var sftp = require('ftp-upload');
+var sftp = require('ftp-node');
 
 var options = {
   host: '192.168.0.0',
