@@ -1,0 +1,34 @@
+{
+  "name": "ftp-node",
+  "version": "0.0.2",
+  "description": "A wrapper for ftp function because ftp is super complicated and I just want to upload",
+  "main": "ftp.js",
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenichishibata31/ftp.git"
+  },
+  "keywords": [
+    "ftp",
+    "node",
+    "node-ftp",
+    "lazy",
+    "simple-ftp",
+    "upload",
+    "kenichi",
+    "shibata",
+    "kenichi.shibata"
+  ],
+  "author": "Kenichi Shibata <kenichi.shibata@fastretailing.com> (kenichishibata31.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenichishibata31/ftp/issues"
+  },
+  "homepage": "https://github.com/kenichishibata31/ftp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0"
+  }
+}
