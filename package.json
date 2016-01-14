@@ -1,6 +1,6 @@
 {
   "name": "ftp-node",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A wrapper for ftp function because ftp is super complicated and I just want to upload",
   "main": "ftp.js",
   "scripts": {
