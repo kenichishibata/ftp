@@ -1,7 +1,4 @@
-var fs = require('fs');
 var sftp = require('ftp-upload');
-
-var pem = fs.readFileSync('path/to/file.key');
 
 var options = {
   host: '192.168.0.0',
